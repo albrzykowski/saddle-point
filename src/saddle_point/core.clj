@@ -31,12 +31,4 @@
 
 (defn has-saddle-points? [matrix]
   (if (empty? (find-saddle-points matrix)) false true))
-
-  
-;(defn -main
-;    [& args]
-;    
-;    (def m [[8 -8 -1 0] [4 2 1 3] [3 -1 0 2] [6 0 -2 10]])
-;    (println (type (find-saddle-points m)))
-;    (println (has-saddle-points? m)))
     
