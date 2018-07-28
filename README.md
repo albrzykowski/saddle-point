@@ -1,36 +1,21 @@
-# saddle-point
+# Saddle points of payoff matrix
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar saddle-point-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
+Project is inspired by very interesting course by prof. Marek Szopa from University of Silesia in Katowice tah allows finding and asserting if saddle points exists in given payoff matrix. More about saddle points you cand find here: https://www.youtube.com/watch?v=NjVSltkCA0E&t=3863s
 
 ## Examples
 
-...
+Library contains two function. 
 
-### Bugs
+First one `has-saddle-points?` allows you to assert if saddle points exists in given matrix:
 
-...
+    (deftest has-saddle-points-returns-true-test
+        (testing "If true is returned when saddle points exist"
+            (def matrix [[8 -8 -1 0] [4 2 1 3] [3 -1 0 2] [6 0 -2 10]])
+            (is (= (has-saddle-points? matrix) true))))
+            
+The secont one `find-saddle-points` allows you to find saddle points in given matrix:
 
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2018 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+    (deftest find-saddle-points-test
+        (testing "If saddle points are returned when exist"
+            (def matrix [[8 -8 -1 0] [4 2 1 3] [3 -1 0 2] [6 0 -2 10]])
+            (is (= (find-saddle-points matrix) #{'(1 2)}))))
