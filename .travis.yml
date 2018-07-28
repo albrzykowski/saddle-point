@@ -1,5 +1,1 @@
-language: clojure
-
-lein deps
-
 lein test
