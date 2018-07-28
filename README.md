@@ -1,6 +1,6 @@
 # Saddle points of payoff matrix
 
-Project is inspired by very interesting course by prof. Marek Szopa from University of Silesia in Katowice tah allows finding and asserting if saddle points exists in given payoff matrix. More about saddle points you cand find here: https://www.youtube.com/watch?v=NjVSltkCA0E&t=3863s
+Project is inspired by very interesting course by prof. Marek Szopa from University of Silesia in Katowice and allows finding and asserting if saddle points exists in given payoff matrix. More about saddle points you cand find here: https://www.youtube.com/watch?v=NjVSltkCA0E&t=3863s
 
 ## Examples
 
