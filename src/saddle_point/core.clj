@@ -31,4 +31,3 @@
 
 (defn has-saddle-points? [matrix]
   (if (empty? (find-saddle-points matrix)) false true))
-    
