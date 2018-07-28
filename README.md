@@ -2,6 +2,15 @@
 
 Project is inspired by very interesting course by prof. Marek Szopa from University of Silesia in Katowice and allows finding and asserting if saddle points exists in given payoff matrix. More about saddle points you cand find here: https://www.youtube.com/watch?v=NjVSltkCA0E&t=3863s
 
+## Main algorith (to find saddle points) works as follow:
+
+Let `A` be the payoff matrix.
+
+1. Find minimal values in every row and return their indexes.
+2. Transpose `A` and find maximal values in every row, return their indexes and reverse it.
+3. Intersect sets from step 1. and 2.
+
+
 ## Examples
 
 Library contains two function. 
