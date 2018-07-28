@@ -13,7 +13,7 @@ Let `A` be the payoff matrix.
 
 ## Examples
 
-Library contains two function. 
+Library contains two functions. 
 
 First one `has-saddle-points?` allows you to assert if saddle points exists in given matrix:
 
