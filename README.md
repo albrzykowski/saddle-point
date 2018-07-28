@@ -11,7 +11,7 @@ Let `A` be the payoff matrix.
 
 1. Find minimal values in every row and return their indexes.
 2. Transpose `A` and find maximal values in every row, return their indexes and reverse it.
-3. Intersect sets from step 1. and 2.
+3. Intersect sets from steps 1. and 2.
 
 
 ## Examples
