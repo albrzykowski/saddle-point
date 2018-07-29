@@ -1,6 +1,8 @@
-# Saddle points of payoff matrix
+saddle-point
+===========
 
-### Status
+[![Clojars Project](https://clojars.org/re.blacksqua/saddle-point/latest-version.svg)](https://clojars.org/re.blacksqua/saddle-point)
+
 [![Build Status](https://travis-ci.com/albrzykowski/saddle-point.svg?branch=master)](https://travis-ci.com/albrzykowski/saddle-point)
 
 Project is inspired by very interesting course by [prof. Marek Szopa](https://pl.wikipedia.org/wiki/Marek_Szopa) from [University of Silesia in Katowice](http://english.us.edu.pl/) about [Game Theory](https://en.wikipedia.org/wiki/Game_theory) and allows finding and asserting if saddle points exists in given payoff matrix. More about saddle points you cand find here (PL): https://www.youtube.com/watch?v=NjVSltkCA0E&t=3863s
